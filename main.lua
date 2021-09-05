@@ -299,7 +299,7 @@ show_hide.TextWrapped = true
 
 -- Scripts:
 
-local function VTWAT_fake_script() -- bypassed_fly.LocalScript 
+local function CEIYA_fake_script() -- bypassed_fly.LocalScript 
 	local script = Instance.new('LocalScript', bypassed_fly)
 
 	function remove_fog()
@@ -356,8 +356,8 @@ local function VTWAT_fake_script() -- bypassed_fly.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(remove_fog)
 end
-coroutine.wrap(VTWAT_fake_script)()
-local function MLZWK_fake_script() -- btools.LocalScript 
+coroutine.wrap(CEIYA_fake_script)()
+local function JHUASPO_fake_script() -- btools.LocalScript 
 	local script = Instance.new('LocalScript', btools)
 
 	function btools()
@@ -374,8 +374,8 @@ local function MLZWK_fake_script() -- btools.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(btools)
 end
-coroutine.wrap(MLZWK_fake_script)()
-local function QZBO_fake_script() -- set_speed_button.LocalScript 
+coroutine.wrap(JHUASPO_fake_script)()
+local function TXSSBLW_fake_script() -- set_speed_button.LocalScript 
 	local script = Instance.new('LocalScript', set_speed_button)
 
 	function set_speed()
@@ -385,8 +385,8 @@ local function QZBO_fake_script() -- set_speed_button.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(set_speed)
 end
-coroutine.wrap(QZBO_fake_script)()
-local function AXCGFPK_fake_script() -- auto_buy.LocalScript 
+coroutine.wrap(TXSSBLW_fake_script)()
+local function RVRVE_fake_script() -- auto_buy.LocalScript 
 	local script = Instance.new('LocalScript', auto_buy)
 
 	function auto_buy()
@@ -435,8 +435,8 @@ local function AXCGFPK_fake_script() -- auto_buy.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(auto_buy)
 end
-coroutine.wrap(AXCGFPK_fake_script)()
-local function BGYLVB_fake_script() -- auto_collect.LocalScript 
+coroutine.wrap(RVRVE_fake_script)()
+local function XLQPJFB_fake_script() -- auto_collect.LocalScript 
 	local script = Instance.new('LocalScript', auto_collect)
 
 	function auto_collect_cash_function()
@@ -479,8 +479,8 @@ local function BGYLVB_fake_script() -- auto_collect.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(auto_collect_cash_function)
 end
-coroutine.wrap(BGYLVB_fake_script)()
-local function KEIML_fake_script() -- tycoon1_teleport.LocalScript 
+coroutine.wrap(XLQPJFB_fake_script)()
+local function GCQAFO_fake_script() -- tycoon1_teleport.LocalScript 
 	local script = Instance.new('LocalScript', tycoon1_teleport)
 
 	function teleport()
@@ -489,8 +489,8 @@ local function KEIML_fake_script() -- tycoon1_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(KEIML_fake_script)()
-local function IWOA_fake_script() -- tycoon2_teleport.LocalScript 
+coroutine.wrap(GCQAFO_fake_script)()
+local function FYAJDM_fake_script() -- tycoon2_teleport.LocalScript 
 	local script = Instance.new('LocalScript', tycoon2_teleport)
 
 	function teleport()
@@ -499,8 +499,8 @@ local function IWOA_fake_script() -- tycoon2_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(IWOA_fake_script)()
-local function CGBQXJ_fake_script() -- tycoon3_teleport.LocalScript 
+coroutine.wrap(FYAJDM_fake_script)()
+local function FTIZA_fake_script() -- tycoon3_teleport.LocalScript 
 	local script = Instance.new('LocalScript', tycoon3_teleport)
 
 	function teleport()
@@ -509,8 +509,8 @@ local function CGBQXJ_fake_script() -- tycoon3_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(CGBQXJ_fake_script)()
-local function SJUFH_fake_script() -- tycoon4_teleport.LocalScript 
+coroutine.wrap(FTIZA_fake_script)()
+local function BGOH_fake_script() -- tycoon4_teleport.LocalScript 
 	local script = Instance.new('LocalScript', tycoon4_teleport)
 
 	function teleport()
@@ -519,8 +519,8 @@ local function SJUFH_fake_script() -- tycoon4_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(SJUFH_fake_script)()
-local function XSYUMW_fake_script() -- spawn_teleport.LocalScript 
+coroutine.wrap(BGOH_fake_script)()
+local function MMWAN_fake_script() -- spawn_teleport.LocalScript 
 	local script = Instance.new('LocalScript', spawn_teleport)
 
 	function teleport()
@@ -529,8 +529,8 @@ local function XSYUMW_fake_script() -- spawn_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(XSYUMW_fake_script)()
-local function OUVZJ_fake_script() -- e_to_noclip.LocalScript 
+coroutine.wrap(MMWAN_fake_script)()
+local function YNPQQL_fake_script() -- e_to_noclip.LocalScript 
 	local script = Instance.new('LocalScript', e_to_noclip)
 
 	function auto_collect()
@@ -553,8 +553,8 @@ local function OUVZJ_fake_script() -- e_to_noclip.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(auto_collect)
 end
-coroutine.wrap(OUVZJ_fake_script)()
-local function TJXYFLB_fake_script() -- dismiss_gui.LocalScript 
+coroutine.wrap(YNPQQL_fake_script)()
+local function ODCH_fake_script() -- dismiss_gui.LocalScript 
 	local script = Instance.new('LocalScript', dismiss_gui)
 
 	function teleport()
@@ -563,8 +563,8 @@ local function TJXYFLB_fake_script() -- dismiss_gui.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(TJXYFLB_fake_script)()
-local function LFJI_fake_script() -- get_all_weapons.LocalScript 
+coroutine.wrap(ODCH_fake_script)()
+local function CYKNZ_fake_script() -- get_all_weapons.LocalScript 
 	local script = Instance.new('LocalScript', get_all_weapons)
 
 	function get_all_weapons()
@@ -585,8 +585,8 @@ local function LFJI_fake_script() -- get_all_weapons.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(get_all_weapons)
 end
-coroutine.wrap(LFJI_fake_script)()
-local function FQJCG_fake_script() -- show_hide.LocalScript 
+coroutine.wrap(CYKNZ_fake_script)()
+local function ZXVWNFV_fake_script() -- show_hide.LocalScript 
 	local script = Instance.new('LocalScript', show_hide)
 
 	function btools()
@@ -603,4 +603,4 @@ local function FQJCG_fake_script() -- show_hide.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(btools)
 end
-coroutine.wrap(FQJCG_fake_script)()
+coroutine.wrap(ZXVWNFV_fake_script)()
