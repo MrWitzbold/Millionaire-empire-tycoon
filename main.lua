@@ -18,6 +18,7 @@ local spawn_teleport = Instance.new("TextButton")
 local e_to_noclip = Instance.new("TextButton")
 local dismiss_gui = Instance.new("TextButton")
 local get_all_weapons = Instance.new("TextButton")
+local cash_crates = Instance.new("TextButton")
 local Frame = Instance.new("Frame")
 local show_hide = Instance.new("TextButton")
 
@@ -51,7 +52,7 @@ discord.Name = "discord"
 discord.Parent = main
 discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 discord.BackgroundTransparency = 1.000
-discord.Position = UDim2.new(0, 0, 0.719409347, 0)
+discord.Position = UDim2.new(0, 0, 0.795358717, 0)
 discord.Size = UDim2.new(0, 283, 0, 24)
 discord.Font = Enum.Font.SourceSans
 discord.Text = "https://discord.gg/4jFcGAaq2T"
@@ -170,7 +171,7 @@ tycoon1_teleport.Parent = main
 tycoon1_teleport.BackgroundColor3 = Color3.fromRGB(168, 35, 55)
 tycoon1_teleport.BorderColor3 = Color3.fromRGB(107, 16, 45)
 tycoon1_teleport.BorderSizePixel = 2
-tycoon1_teleport.Position = UDim2.new(0.0212014094, 0, 0.55907172, 0)
+tycoon1_teleport.Position = UDim2.new(0.0212014094, 0, 0.635021091, 0)
 tycoon1_teleport.Size = UDim2.new(0, 88, 0, 31)
 tycoon1_teleport.Font = Enum.Font.SourceSans
 tycoon1_teleport.Text = "Tycoon1"
@@ -184,7 +185,7 @@ tycoon2_teleport.Parent = main
 tycoon2_teleport.BackgroundColor3 = Color3.fromRGB(168, 35, 55)
 tycoon2_teleport.BorderColor3 = Color3.fromRGB(107, 16, 45)
 tycoon2_teleport.BorderSizePixel = 2
-tycoon2_teleport.Position = UDim2.new(0.363957584, 0, 0.55907172, 0)
+tycoon2_teleport.Position = UDim2.new(0.363957584, 0, 0.635021091, 0)
 tycoon2_teleport.Size = UDim2.new(0, 88, 0, 31)
 tycoon2_teleport.Font = Enum.Font.SourceSans
 tycoon2_teleport.Text = "Tycoon2"
@@ -198,7 +199,7 @@ tycoon3_teleport.Parent = main
 tycoon3_teleport.BackgroundColor3 = Color3.fromRGB(168, 35, 55)
 tycoon3_teleport.BorderColor3 = Color3.fromRGB(107, 16, 45)
 tycoon3_teleport.BorderSizePixel = 2
-tycoon3_teleport.Position = UDim2.new(0.710247338, 0, 0.55907172, 0)
+tycoon3_teleport.Position = UDim2.new(0.710247338, 0, 0.635021091, 0)
 tycoon3_teleport.Size = UDim2.new(0, 76, 0, 31)
 tycoon3_teleport.Font = Enum.Font.SourceSans
 tycoon3_teleport.Text = "Tycoon3"
@@ -212,7 +213,7 @@ tycoon4_teleport.Parent = main
 tycoon4_teleport.BackgroundColor3 = Color3.fromRGB(168, 35, 55)
 tycoon4_teleport.BorderColor3 = Color3.fromRGB(107, 16, 45)
 tycoon4_teleport.BorderSizePixel = 2
-tycoon4_teleport.Position = UDim2.new(0.0212014131, 0, 0.643459857, 0)
+tycoon4_teleport.Position = UDim2.new(0.0212014131, 0, 0.719409227, 0)
 tycoon4_teleport.Size = UDim2.new(0, 88, 0, 31)
 tycoon4_teleport.Font = Enum.Font.SourceSans
 tycoon4_teleport.Text = "Tycoon4"
@@ -226,7 +227,7 @@ spawn_teleport.Parent = main
 spawn_teleport.BackgroundColor3 = Color3.fromRGB(168, 35, 55)
 spawn_teleport.BorderColor3 = Color3.fromRGB(107, 16, 45)
 spawn_teleport.BorderSizePixel = 2
-spawn_teleport.Position = UDim2.new(0.367491156, 0, 0.643459857, 0)
+spawn_teleport.Position = UDim2.new(0.367491156, 0, 0.719409227, 0)
 spawn_teleport.Size = UDim2.new(0, 88, 0, 31)
 spawn_teleport.Font = Enum.Font.SourceSans
 spawn_teleport.Text = "Spawn"
@@ -278,6 +279,20 @@ get_all_weapons.TextScaled = true
 get_all_weapons.TextSize = 15.000
 get_all_weapons.TextWrapped = true
 
+cash_crates.Name = "cash_crates"
+cash_crates.Parent = main
+cash_crates.BackgroundColor3 = Color3.fromRGB(255, 53, 87)
+cash_crates.BorderColor3 = Color3.fromRGB(107, 16, 45)
+cash_crates.BorderSizePixel = 2
+cash_crates.Position = UDim2.new(0.0212014131, 0, 0.55907172, 0)
+cash_crates.Size = UDim2.new(0, 271, 0, 25)
+cash_crates.Font = Enum.Font.SourceSans
+cash_crates.Text = "Get all cash crates"
+cash_crates.TextColor3 = Color3.fromRGB(243, 255, 0)
+cash_crates.TextScaled = true
+cash_crates.TextSize = 15.000
+cash_crates.TextWrapped = true
+
 Frame.Parent = h4x_thing
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
@@ -299,7 +314,7 @@ show_hide.TextWrapped = true
 
 -- Scripts:
 
-local function CEIYA_fake_script() -- bypassed_fly.LocalScript 
+local function WGQGQ_fake_script() -- bypassed_fly.LocalScript 
 	local script = Instance.new('LocalScript', bypassed_fly)
 
 	function remove_fog()
@@ -356,8 +371,8 @@ local function CEIYA_fake_script() -- bypassed_fly.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(remove_fog)
 end
-coroutine.wrap(CEIYA_fake_script)()
-local function JHUASPO_fake_script() -- btools.LocalScript 
+coroutine.wrap(WGQGQ_fake_script)()
+local function SBZAP_fake_script() -- btools.LocalScript 
 	local script = Instance.new('LocalScript', btools)
 
 	function btools()
@@ -374,8 +389,8 @@ local function JHUASPO_fake_script() -- btools.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(btools)
 end
-coroutine.wrap(JHUASPO_fake_script)()
-local function TXSSBLW_fake_script() -- set_speed_button.LocalScript 
+coroutine.wrap(SBZAP_fake_script)()
+local function SLJW_fake_script() -- set_speed_button.LocalScript 
 	local script = Instance.new('LocalScript', set_speed_button)
 
 	function set_speed()
@@ -385,8 +400,8 @@ local function TXSSBLW_fake_script() -- set_speed_button.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(set_speed)
 end
-coroutine.wrap(TXSSBLW_fake_script)()
-local function RVRVE_fake_script() -- auto_buy.LocalScript 
+coroutine.wrap(SLJW_fake_script)()
+local function SPRUQ_fake_script() -- auto_buy.LocalScript 
 	local script = Instance.new('LocalScript', auto_buy)
 
 	function auto_buy()
@@ -435,8 +450,8 @@ local function RVRVE_fake_script() -- auto_buy.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(auto_buy)
 end
-coroutine.wrap(RVRVE_fake_script)()
-local function XLQPJFB_fake_script() -- auto_collect.LocalScript 
+coroutine.wrap(SPRUQ_fake_script)()
+local function OLMZAVS_fake_script() -- auto_collect.LocalScript 
 	local script = Instance.new('LocalScript', auto_collect)
 
 	function auto_collect_cash_function()
@@ -479,8 +494,8 @@ local function XLQPJFB_fake_script() -- auto_collect.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(auto_collect_cash_function)
 end
-coroutine.wrap(XLQPJFB_fake_script)()
-local function GCQAFO_fake_script() -- tycoon1_teleport.LocalScript 
+coroutine.wrap(OLMZAVS_fake_script)()
+local function OIVJX_fake_script() -- tycoon1_teleport.LocalScript 
 	local script = Instance.new('LocalScript', tycoon1_teleport)
 
 	function teleport()
@@ -489,8 +504,8 @@ local function GCQAFO_fake_script() -- tycoon1_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(GCQAFO_fake_script)()
-local function FYAJDM_fake_script() -- tycoon2_teleport.LocalScript 
+coroutine.wrap(OIVJX_fake_script)()
+local function HCZKNB_fake_script() -- tycoon2_teleport.LocalScript 
 	local script = Instance.new('LocalScript', tycoon2_teleport)
 
 	function teleport()
@@ -499,8 +514,8 @@ local function FYAJDM_fake_script() -- tycoon2_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(FYAJDM_fake_script)()
-local function FTIZA_fake_script() -- tycoon3_teleport.LocalScript 
+coroutine.wrap(HCZKNB_fake_script)()
+local function NDITQGB_fake_script() -- tycoon3_teleport.LocalScript 
 	local script = Instance.new('LocalScript', tycoon3_teleport)
 
 	function teleport()
@@ -509,8 +524,8 @@ local function FTIZA_fake_script() -- tycoon3_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(FTIZA_fake_script)()
-local function BGOH_fake_script() -- tycoon4_teleport.LocalScript 
+coroutine.wrap(NDITQGB_fake_script)()
+local function MQYB_fake_script() -- tycoon4_teleport.LocalScript 
 	local script = Instance.new('LocalScript', tycoon4_teleport)
 
 	function teleport()
@@ -519,8 +534,8 @@ local function BGOH_fake_script() -- tycoon4_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(BGOH_fake_script)()
-local function MMWAN_fake_script() -- spawn_teleport.LocalScript 
+coroutine.wrap(MQYB_fake_script)()
+local function PCEET_fake_script() -- spawn_teleport.LocalScript 
 	local script = Instance.new('LocalScript', spawn_teleport)
 
 	function teleport()
@@ -529,8 +544,8 @@ local function MMWAN_fake_script() -- spawn_teleport.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(MMWAN_fake_script)()
-local function YNPQQL_fake_script() -- e_to_noclip.LocalScript 
+coroutine.wrap(PCEET_fake_script)()
+local function QVSPIXF_fake_script() -- e_to_noclip.LocalScript 
 	local script = Instance.new('LocalScript', e_to_noclip)
 
 	function auto_collect()
@@ -553,8 +568,8 @@ local function YNPQQL_fake_script() -- e_to_noclip.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(auto_collect)
 end
-coroutine.wrap(YNPQQL_fake_script)()
-local function ODCH_fake_script() -- dismiss_gui.LocalScript 
+coroutine.wrap(QVSPIXF_fake_script)()
+local function NMDWZWJ_fake_script() -- dismiss_gui.LocalScript 
 	local script = Instance.new('LocalScript', dismiss_gui)
 
 	function teleport()
@@ -563,8 +578,8 @@ local function ODCH_fake_script() -- dismiss_gui.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(teleport)
 end
-coroutine.wrap(ODCH_fake_script)()
-local function CYKNZ_fake_script() -- get_all_weapons.LocalScript 
+coroutine.wrap(NMDWZWJ_fake_script)()
+local function PISUO_fake_script() -- get_all_weapons.LocalScript 
 	local script = Instance.new('LocalScript', get_all_weapons)
 
 	function get_all_weapons()
@@ -585,8 +600,21 @@ local function CYKNZ_fake_script() -- get_all_weapons.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(get_all_weapons)
 end
-coroutine.wrap(CYKNZ_fake_script)()
-local function ZXVWNFV_fake_script() -- show_hide.LocalScript 
+coroutine.wrap(PISUO_fake_script)()
+local function WGCRCR_fake_script() -- cash_crates.LocalScript 
+	local script = Instance.new('LocalScript', cash_crates)
+
+	function get_cash_crates()
+		for i,v in pairs(workspace.CrateParent:GetChildren()) do
+			v.Position = game.Players.LocalPlayer.Character.Head.Position
+			wait(0.001)
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(get_cash_crates)
+end
+coroutine.wrap(WGCRCR_fake_script)()
+local function YVBU_fake_script() -- show_hide.LocalScript 
 	local script = Instance.new('LocalScript', show_hide)
 
 	function btools()
@@ -603,4 +631,4 @@ local function ZXVWNFV_fake_script() -- show_hide.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(btools)
 end
-coroutine.wrap(ZXVWNFV_fake_script)()
+coroutine.wrap(YVBU_fake_script)()
